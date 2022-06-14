@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: #121417;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100wv;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card {
+  background-color: rgba(37, 45, 55, 0.7);
+  width: 20.25rem;
+  border-radius: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1.4rem;
+}
+
+.container .card .icon {
+  background-color: rgba(124, 135, 152, 0.15);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  padding: .9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .icon img {
+  width: .8rem;
+  text-align: center;
+}
+
+.container .card .title {
+  color: white;
+  margin: 1.35rem 0 .9rem;
+  font-size: 1.55rem;
+}
+
+.container .card p {
+  color: rgba(149, 158, 172, 0.7);
+  font-size: .878rem;
+  line-height: 1.4rem;
+}
+
+.container .card .rating-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-block: 1.7rem;
+}
+
+.container .card .rating-wrapper .rating-btn {
+  color: rgba(149, 158, 172, 0.7);
+  font-size: .878rem;
+  background-color: rgba(124, 135, 152, 0.15);
+  border-radius: 50%;
+  padding: 0.8rem 1rem;
+  width: auto;
+}
+
+.container .card .rating-wrapper .rating-btn:hover {
+  background-color: rgba(149, 158, 172, 0.7);
+  color: white;
+  cursor: pointer;
+}
+
+.container .card .rating-wrapper .active {
+  background-color: #fb7413;
+  color: white;
+}
+
+.container .card .submit {
+  background-color: #fb7413;
+  color: white;
+  text-transform: uppercase;
+  padding: 1.1rem 0.9rem .9rem;
+  font-size: .9rem;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+.container .card .submit:hover {
+  background-color: white;
+  color: #fb7413;
+  font-weight: bolder;
+}
+
+.container .card .thankyou-state {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .thankyou-state img {
+  width: 51%;
+  margin-block: .7rem;
+}
+
+.container .card .thankyou-state .selection {
+  margin-block: .8rem .6rem;
+  background-color: rgba(124, 135, 152, 0.15);
+  color: #fb7413;
+  font-size: .878rem;
+  padding: .6rem;
+  border-radius: 2rem;
+}
+
+.container .card .thankyou-state p {
+  color: rgba(149, 158, 172, 0.7);
+  font-size: .878rem;
+  line-height: 1.4rem;
+}
+
+.container .card .hidden {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

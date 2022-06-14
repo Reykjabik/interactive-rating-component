@@ -1,0 +1,119 @@
+.container {
+    height: 100vh;
+    width: 100wv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+        background-color: $dk-blue;
+        width: 20.25rem;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        padding: 1.4rem;
+
+
+        .icon {
+            background-color: $md-grey;
+            width: fit-content;
+            height: fit-content;
+            border-radius: 50%;
+            padding: .9rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: .8rem;
+                text-align: center;
+            }
+        }
+        
+
+        .title {
+            color: $white;
+            margin: 1.35rem 0 .9rem;
+            font-size: 1.55rem;
+        }
+
+        p {
+            color: $lg-grey;
+            font-size: .878rem;
+            line-height: 1.4rem;
+        }
+
+
+        .rating-wrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-block: 1.7rem;
+
+            .rating-btn {
+                color: $lg-grey;
+                font-size: .878rem;
+                background-color: $md-grey;
+                border-radius: 50%;
+                padding: 0.8rem 1rem;
+                width: auto;
+            
+                &:hover {
+                    background-color: $lg-grey;
+                    color: $white;
+                    cursor: pointer;
+                }                
+            }
+
+            .active{
+                background-color: $orange;
+                color: $white;
+            }
+        }
+
+        .submit {
+            background-color: $orange;
+            color: $white;
+            text-transform: uppercase;
+            padding: 1.1rem 0.9rem .9rem;
+            font-size: .9rem;
+            text-align: center;
+            border-radius: 2rem;
+
+            &:hover {
+                background-color: $white;
+                color: $orange;
+                font-weight: bolder;
+            }
+        }
+
+        .thankyou-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 51%;
+                margin-block: .7rem;
+            }
+
+            .selection {
+                margin-block: .8rem .6rem;
+                background-color: $md-grey;
+                color: $orange;
+                font-size: .878rem;
+                padding: .6rem;
+                border-radius: 2rem;
+            }
+
+            p {
+                color: $lg-grey;
+                font-size: .878rem;
+                line-height: 1.4rem;
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+    }
+}

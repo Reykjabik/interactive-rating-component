@@ -1,0 +1,17 @@
+// Colors
+
+// Primary
+
+$orange: hsl(25, 97%, 53%);
+
+// Neutral
+
+$white: hsl(0, 0%, 100%);
+$lg-grey: hsla(217, 12%, 63%, 0.7);
+$md-grey: hsla(216, 12%, 54%, 0.15);
+$dk-blue: hsla(213, 19%, 18%, 0.7);
+$vdk-blue: hsl(216, 12%, 8%);
+
+@import 'reset';
+@import 'general';
+@import 'card';
